@@ -2,8 +2,15 @@
 using namespace std;
 int main()
 {
-    int arr[5]={5,2,8,3,9};
-    for(int i=1;i<=4;i++)
+    int n;//n define the size of array
+    cout<<"enter the number from keyboard"<<"\n";
+    cin>>n;
+    int arr[n];
+    for(int k=0;k<n;k++)
+    {
+    cin>>arr[k]
+    }
+    for(int i=1;i<n;i++)
     {
         if(arr[0]<arr[i])
         {
